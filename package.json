@@ -1,0 +1,24 @@
+{
+  "name": "multipart_content_composer",
+  "version": "1.0.0",
+  "description": "multipare encoded comtent composer",
+  "main": "dist",
+  "scripts": {
+	"build": "tsc",
+	"watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "multipart",
+    "content-type",
+    "mime",
+    "multipart encoded",
+    "mail body creator",
+    "main body composer"
+  ],
+  "author": "Bipin Maharjan",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
