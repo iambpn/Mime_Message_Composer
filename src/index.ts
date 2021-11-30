@@ -68,7 +68,7 @@ abstract class ContentType implements ContentTypeI {
     }
 
     /**
-     * User to add headers to the content type.
+     * Used to add headers to the content type.
      * @param headers
      *
      * {
@@ -103,7 +103,7 @@ class BranchableCT extends ContentType implements BranchableI {
      *
      * {
      *     contentType:string,
-     *     boundary?:string
+     *     boundary:string
      * }
      */
     constructor(CTHeader: ContentTypeHeader) {
@@ -139,7 +139,7 @@ class BranchableCT extends ContentType implements BranchableI {
     }
 
     /**
-     * Generate the compiled string of this content type along with headers and branches.
+     * Generate the compiled string of this content type by combining with headers and branches.
      */
     compile(): string {
         return `${super._buildHeaders()}${lf}${this._buildBranches()}`;
