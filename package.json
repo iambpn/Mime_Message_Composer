@@ -1,6 +1,6 @@
 {
   "name": "mime_message_composer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "multipare encoded content composer",
   "main": "dist",
   "scripts": {
