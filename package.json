@@ -1,7 +1,7 @@
 {
-  "name": "multipart_content_composer",
+  "name": "mime_message_composer",
   "version": "1.0.0",
-  "description": "multipare encoded comtent composer",
+  "description": "multipare encoded content composer",
   "main": "dist",
   "scripts": {
 	"build": "tsc",
@@ -14,8 +14,13 @@
     "mime",
     "multipart encoded",
     "mail body creator",
-    "main body composer"
+    "main body composer",
+	"mime-message creator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambpn/Mime_Message_Composer"
+  },
   "author": "Bipin Maharjan",
   "license": "MIT",
   "dependencies": {
