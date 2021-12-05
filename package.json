@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "multipare encoded content composer",
   "main": "dist",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
   "scripts": {
 	"build": "tsc",
 	"watch": "tsc --watch",
