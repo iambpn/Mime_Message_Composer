@@ -1,6 +1,10 @@
 # Mime Message Composer
 Mime / Multipart message composer is a package that helps to encode the request body in a multipart message format. This composer helps to create the multipart encoded body like multipart/alternative.
 
+## Install using NPM
+
+`npm i mime_message_composer`
+
 ## Info
 This package works on a concept of content type. Every mutipart message hava a content type that describe what content it holds.  
 This package exposes two classes:
