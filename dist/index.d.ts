@@ -1,8 +1,8 @@
-declare type HeaderType = {
+type HeaderType = {
     name: string;
     value: string;
 };
-declare type ContentTypeHeader = {
+type ContentTypeHeader = {
     contentType: string;
     boundary?: string;
     additionalCT?: HeaderType;
