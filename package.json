@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "multipart",
@@ -43,5 +44,8 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
