@@ -1,12 +1,12 @@
 {
   "name": "mime_message_composer",
   "version": "1.0.2",
-  "description": "multipare encoded content composer",
+  "description": "multipart message composer for nodejs and browser",
   "main": "dist",
   "types": "dist/index.d.ts",
   "scripts": {
-	"build": "tsc",
-	"watch": "tsc --watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [
@@ -14,9 +14,26 @@
     "content-type",
     "mime",
     "multipart encoded",
+    "multipart content composer",
+    "multipart content creator",
+    "multipart message composer",
+    "multipart message creator",
+    "multipart message parser",
+    "mail composer",
+    "mail creator",
     "mail body creator",
-    "main body composer",
-	"mime-message creator"
+    "mime body composer",
+    "mime-message creator",
+    "mime message composer",
+    "mime-message-composer",
+    "mime_message_composer",
+    "mime message parser",
+    "email message parser",
+    "email message composer",
+    "email body creator",
+    "email body composer",
+    "rfc1341",
+    "mime-multipart-composer"
   ],
   "repository": {
     "type": "git",
